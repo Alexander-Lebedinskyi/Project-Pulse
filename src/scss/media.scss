@@ -1,0 +1,26 @@
+@media(max-width: 1024px){
+    .promo{
+        padding: 21px 30px 93px 30px;
+        &__header{
+            font-size: 36px;
+        }
+        &__subheader{
+            font-size: 21px;
+            margin-top: 12px;
+        }
+    }
+    .header{
+        &__logo{
+            width: 200px;
+        }
+        &__official{
+            font-size: 11px;
+            span{
+                font-size: 16px;
+            }
+        }
+        &__phone{
+            font-size: 16px;
+        }
+    }
+}
