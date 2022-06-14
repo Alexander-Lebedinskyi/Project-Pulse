@@ -23,4 +23,94 @@
             font-size: 16px;
         }
     }
+    .benefits{
+        &__title{
+            font-size: 28px;
+        }
+        &__item{
+            width: 200px;
+        }
+    }
+}
+
+@media(max-width: 767px){
+    .promo{
+        padding: 12px 20px 66px 20px;
+		min-height: 450px;
+        .header{
+            &__logo{
+                width: 150px;
+            }
+            &__official{
+                font-size: 8px;
+                span{
+                   font-size: 10px; 
+                }
+            }
+            &__phone{
+                font-size: 12px;
+            }
+            .button{
+                width: 125px;
+                height: 25px;
+                font-size: 10px;
+            }
+        }
+        &__wrapper{
+            margin-top: 35px;
+        }
+        &__header{
+            font-size: 20px;
+        }
+        &__subheader{
+            font-size: 13px;
+            margin-top: 4px;
+        }
+        &__icons{
+            justify-content: space-evenly;
+            margin-top: 30px;
+        }
+        &__icon{
+            font-size: 10px;
+            line-height: 11px;
+            width: 85px;
+            img{
+                margin-bottom: 15px;
+            }
+        }
+        .button_main{
+            margin-top: 50px;
+            width: 250px;
+            height: 40px;
+            font-size: 13px;
+        }
+        &__link{
+            font-size: 13px;
+        }
+    }
+    .benefits{
+        &__wrapper{
+            flex-direction: column;
+            align-items: center;
+            margin-top: 10px;
+        }
+        &__item{
+            margin-top: 40px;
+        }
+    }
+}
+
+@media (max-width: 425px){
+    .header{
+        &__official{
+            display: none;
+        }
+    }
+    .promo{
+        &__icons{
+            width: 100%;
+            margin: 0 auto;
+            margin-top: 40px;
+        }
+    }
 }
